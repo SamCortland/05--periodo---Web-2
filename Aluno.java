@@ -23,8 +23,9 @@ public class Aluno extends Pessoa{
     }
 
     @Override
-
     public String toString(){
-        return "Aluno{" + super.toString() + ", matricula" + getMatriculaAluno() + "}";
+        return "\nAluno{" + super.toString() +
+                ", matricula=" + getMatriculaAluno() + "}";
     }
+
 }

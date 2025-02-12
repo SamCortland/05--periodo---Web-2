@@ -4,11 +4,11 @@ public class Pessoa{
     private long cpf;
 
     public Pessoa(){
-        this("", 0, 0l);
+        this("", 0, 0);
     }
 
     public Pessoa(String nome, int idade){
-        this(nome,idade,0l);
+        this(nome,idade,0);
     }
 
     public Pessoa (String nome, int idade, long cpf){

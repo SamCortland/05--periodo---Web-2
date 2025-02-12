@@ -2,12 +2,14 @@ public class Professor extends Pessoa{
     private int idProfessor;
 
     public Professor(){
-        this("", 0, 0l, 0);
+        this("",0,0l,0);
     }
 
     public Professor(String nome, int idade){
         this(nome,idade, 0l, 0);
+        
     }
+
     public Professor(String nome, int idade, long cpf, int idProfessor){
         super(nome, idade, cpf);
         this.idProfessor = idProfessor;
@@ -23,6 +25,7 @@ public class Professor extends Pessoa{
 
     @Override
     public String toString(){
-        return "Professor{" + super.toString() + ", IdProfessor=" + getIdProfessor() + "}";
+        return "\nProfessor{" + super.toString() +
+                ", idProfessor=" + getIdProfessor() + "}";
     }
 }
